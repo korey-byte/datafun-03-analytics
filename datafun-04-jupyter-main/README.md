@@ -6,7 +6,7 @@ source .venv/bin/activate
 
 Install Dependencies
 
-py -m pip install -r "requirements.txt"
+pip3 -m pip install -r "requirements.txt"
 
 Freeze Requirements
 
