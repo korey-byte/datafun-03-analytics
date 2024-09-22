@@ -12,8 +12,12 @@ source .venv/bin/activate
 
 python3 -m pip install -r requirements.txt
 
-# Git Add
+# Check the status of my repository
+This will list all the modified files
 
+git status
+
+# Git Add
 git add . 
 
 # Git Commit
@@ -29,7 +33,7 @@ git push -u origin main
 #       Subsequent Pushes
         git push
 ==============================================
-# Additional Commands
+# Various Commands
 Python3 Commands
 -----------------
 
@@ -115,3 +119,87 @@ Git Commands
 
 15. Set Remote Repository URL:
     git remote set-url origin https://github.com/yourusername/new-repository.git
+    
+Jupyter Notebook Commands
+-------------------------
+
+1. Launch Jupyter Notebook:
+   jupyter notebook
+
+2. Launch Jupyter Lab (alternative interface):
+   jupyter lab
+
+3. List Running Notebooks:
+   jupyter notebook list
+
+4. Export a Notebook to HTML:
+   jupyter nbconvert --to html notebook.ipynb
+
+5. Export a Notebook to PDF:
+   jupyter nbconvert --to pdf notebook.ipynb
+
+6. Install Jupyter in a Virtual Environment:
+   python3 -m pip install jupyter
+
+7. Add a New Cell (in the interface):
+   - Use the `+` icon to add a new code or markdown cell.
+
+8. Execute All Cells:
+   Kernel > Restart & Run All (or use the toolbar).
+
+9. Save Notebook:
+   File > Save and Checkpoint (or use `Cmd + S`).
+
+10. Convert Notebook to Python Script:
+    jupyter nbconvert --to script notebook.ipynb
+
+11. Clear All Outputs:
+    Kernel > Restart & Clear Output
+
+SQL Commands
+------------
+
+1. Create a New Database:
+   CREATE DATABASE database_name;
+
+2. Show Databases:
+   SHOW DATABASES;
+
+3. Use a Database:
+   USE database_name;
+
+4. Create a Table:
+   CREATE TABLE table_name (
+       column1 datatype,
+       column2 datatype,
+       ...
+   );
+
+5. Show Tables:
+   SHOW TABLES;
+
+6. Insert Data into a Table:
+   INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+
+7. Select Data from a Table:
+   SELECT * FROM table_name;
+
+8. Update Data in a Table:
+   UPDATE table_name
+   SET column1 = value1
+   WHERE condition;
+
+9. Delete Data from a Table:
+   DELETE FROM table_name
+   WHERE condition;
+
+10. Drop a Table:
+    DROP TABLE table_name;
+
+11. Add a New Column:
+    ALTER TABLE table_name
+    ADD column_name datatype;
+
+12. Delete a Column:
+    ALTER TABLE table_name
+    DROP COLUMN column_name;
