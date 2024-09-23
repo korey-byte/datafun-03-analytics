@@ -1,7 +1,6 @@
-# datafun-04-jupyter
+# datafun-03-analytics
 
 ## How to Install and Run the Project
-
 
 # Create a virutal Environment named .venv
 python3 -m venv .venv 
